@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/samersaemeldahr/Tech-Blog/issues"
   },
-  "homepage": "https://github.com/samersaemeldahr/Tech-Blog#readme"
+  "homepage": "https://github.com/samersaemeldahr/Tech-Blog#readme",
+  "dependencies": {
+    "sequelize": "^6.6.2"
+  }
 }
