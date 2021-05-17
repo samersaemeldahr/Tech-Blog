@@ -8,23 +8,23 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
-  <header>
-    <h1><a href="/">The Tech Blog</a></h1>
-  </header>
-  <nav>
+<body class="flex-column vh">
+  <nav class="navbar">
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/dashboard">Dashboard</a></li>
-      <li><a href="/login">Login</a></li>
-      <li><a href="#">Logout</a></li>
+      <li class="nav"><a href="/">Home</a></li>
+      <li class="nav"><a href="/dashboard">Dashboard</a></li>
+      <li class="nav"><a href="/login">Login</a></li>
+      <li class="nav"><a href="#" id="logout-link">Logout</a></li>
     </ul>
   </nav>
+  <header class="header">
+    <h1 class="title"><a href="/">The Tech Blog</a></h1>
+  </header>
 
-  <main>
+  <main class="col-auto">
     {{{body}}}
   </main>
 </body>
 
 </html>
-<script></script>
+<script src="/js/logout.js"></script>
